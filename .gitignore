@@ -1,0 +1,7 @@
+*.apk
+.dart_tool/
+.build/
+build/
+.idea/
+*.iml
+.DS_Store
