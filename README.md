@@ -1,4 +1,4 @@
-# CarPassport — كار الباسبور 🇪🇬
+# CarPassport — كار باسبور 🇪🇬
 
 A Flutter demo for Egypt's car-service market: every car gets a **digital passport** — full service history, garage network, and a sale certificate that proves the car's story.
 
@@ -17,7 +17,7 @@ Built as a working mock APK in one day on Google Colab (Flutter stable, JDK 17 +
 ## Features (demo)
 
 - **الجراجات (Garages)** — nearby garage list: name, area, distance, rating, tap-to-call
-- **كار الباسبور (Car Passport)** — demo car (Peugeot 208) + expandable service history with cost & next-due km
+- **كار باسبور (Car Passport)** — demo car (Peugeot 208) + expandable service history with cost & next-due km
 - **الإعدادات (Settings)** — dark/light mode toggle, Arabic-first RTL UI
 
 ## Download

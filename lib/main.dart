@@ -90,7 +90,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
-          title: Text(['الجراجات', 'كار الباسبور', 'الإعدادات'][_tab]),
+          title: Text(['الجراجات', 'كار باسبور', 'الإعدادات'][_tab]),
           actions: [
             IconButton(icon: const Icon(Icons.refresh), onPressed: () => setState(() {})),
           ],
@@ -101,7 +101,7 @@ class _HomeState extends State<Home> {
           onDestinationSelected: (i) => setState(() => _tab = i),
           destinations: const [
             NavigationDestination(icon: Icon(Icons.garage_outlined), selectedIcon: Icon(Icons.garage), label: 'جراجات'),
-            NavigationDestination(icon: Icon(Icons.description_outlined), selectedIcon: Icon(Icons.description), label: 'الباسبور'),
+            NavigationDestination(icon: Icon(Icons.description_outlined), selectedIcon: Icon(Icons.description), label: 'باسبور'),
             NavigationDestination(icon: Icon(Icons.settings_outlined), selectedIcon: Icon(Icons.settings), label: 'إعدادات'),
           ],
         ),
@@ -196,7 +196,7 @@ class SettingsTab extends StatelessWidget {
       ListTile(
         leading: const Icon(Icons.info_outline),
         title: const Text('عن التطبيق', style: TextStyle(color: Colors.white)),
-        subtitle: Text('كار الباسبور 1.0 — نسخة تجريبية',
+        subtitle: Text('كار باسبور 1.0 — نسخة تجريبية',
             style: TextStyle(color: Colors.white.withValues(alpha: .5), fontSize: 11)),
       ),
     ]);
