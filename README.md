@@ -4,6 +4,8 @@ A Flutter demo for Egypt's car-service market: every car gets a **digital passpo
 
 Built as a working mock APK in one day on Google Colab (Flutter stable, JDK 17 + Gradle 9.3.1, release-signed).
 
+💡 Original idea by **Mahmoud Salah**.
+
 ## Screens
 
 | Dark | Light |
