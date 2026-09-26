@@ -12,8 +12,6 @@ Built as a working mock APK in one day on Google Colab (Flutter stable, JDK 17 +
 |---|---|
 | ![Dark](mock_dark.png) | ![Light](mock_light.png) |
 
-![Close-up](mock_closeup.png)
-
 ## Features (demo)
 
 - **الجراجات (Garages)** — nearby garage list: name, area, distance, rating, tap-to-call
